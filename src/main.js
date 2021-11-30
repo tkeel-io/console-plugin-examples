@@ -11,7 +11,7 @@ let history = null;
 function render(props = {}) {
   const { container } = props;
   // eslint-disable-next-line no-underscore-dangle
-  history = createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/vue-app' : '/');
+  history = createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/plugin-vue-example' : '/');
   router = createRouter({
     history,
     routes,
