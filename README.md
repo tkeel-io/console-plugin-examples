@@ -1,0 +1,1 @@
+# console-plugin-vue-example
