@@ -32,6 +32,7 @@ export async function bootstrap() {
 }
 
 export async function mount(props) {
+  console.log(props);
   render(props);
   instance.config.globalProperties.$onGlobalStateChange = props.onGlobalStateChange;
   instance.config.globalProperties.$setGlobalState = props.setGlobalState;
